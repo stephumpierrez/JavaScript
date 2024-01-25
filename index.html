@@ -1,11 +1,352 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!--ETIQUETAS PARA EL SEO-->
+    <!-- Primary Meta Tags -->
+    <title>BordaCuentos: Libro Textil Interactivo de Bordado a Mano</title>
+    <meta name="title" content="BordaCuentos: Libro Textil Interactivo de Bordado a Mano">
+    <meta name="description" content="Bienvenido a Bordacuentos, les presentamos Las Travesuras de Supertincho, un
+        libro textil para niños que fusiona la técnica del bordado a mano con la tecnología">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url"
+        content="https://stephumpierrez.github.io/Primer-Repositorio-BordaCuentos-Umpierrez/index.html">
+    <meta property="og:title" content="BordaCuentos: Libro Textil Interactivo de Bordado a Mano">
+    <meta property="og:description" content="Bienvenido a Bordacuentos, les presentamos Las Travesuras de Supertincho, un
+    libro textil para niños que fusiona la técnica del bordado a mano con la tecnología">
+    <meta property="og:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url"
+        content="https://stephumpierrez.github.io/Primer-Repositorio-BordaCuentos-Umpierrez/index.html">
+    <meta property="twitter:title" content="BordaCuentos: Libro Textil Interactivo de Bordado a Mano">
+    <meta property="twitter:description" content="Bienvenido a Bordacuentos, les presentamos Las Travesuras de Supertincho, un
+    libro textil para niños que fusiona la técnica del bordado a mano con la tecnología">
+    <meta property="twitter:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--LINK FAVICON-->
+    <link rel="shortcut icon" href="multimedia/img/favicon.png" type="image/x-icon">
+    <!--LINK AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--LINK A BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--LINK AL CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>BordaCuentos</title>
 </head>
+
 <body>
-    <script src="./main.js"></script>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-5 bg-body-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="multimedia/img/logo_bordacuentos.png" class="mx-2"
+                        alt="Logotipo Bordacuentos que dirige a la página inicial de Bordacuentos">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav nav-underline justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/proyecto.html">Proyecto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/producto.html">Producto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/about.html">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Buscar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--MAIN-->
+
+    <main">
+
+        <!--BANNER-->
+
+        <section class="position">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="multimedia/img/pagina_libro_supertincho.jpg" class="d-block w-100"
+                            alt="pagina_libro_supertincho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="multimedia/img/bordando_pieza_supertincho.jpg" class="d-block w-100"
+                            alt="bordando_pieza_supertincho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="multimedia/img/fondo_supertincho.jpg" class="d-block w-100" alt="fondo_supertincho">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!--ICONS-->
+
+        <section class="container text-center p-5">
+            <div class="row">
+                <div data-aos="flip-right">
+                    <h1 class="fw-bolder py-5">¡Bienvenidos a nuestro sitio!</h1>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <a href="pages/proyecto.html">
+                            <img src="multimedia/img/icono_extension_universitaria.png" class="p-5"
+                                alt="icono_extension_universitaria"></a>
+                    </div>
+                    <p class="py-3 fw-bolder fs-6">
+                        EXTENSIÓN
+                    </p>
+                    <p>
+                        "Proyectos Estudiantiles de Extensión Universitaria 2018-2019", Comisión Sectorial de Extensión
+                        y
+                        Actividades en el Medio (CSEAM).
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <a href="pages/producto.html">
+                            <img src="multimedia/img/icono_ninos_libro.png" class="p-5" alt="icono_ninos_libro"></a>
+                    </div>
+                    <p class="py-3 fw-bolder fs-6">
+                        "LAS TRAVESURAS DE SUPERTINCHO"
+                    </p>
+                    <p>
+                        Un libro para niños que fusiona el bordado y la tecnología.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <div>
+                        <a href="pages/contacto.html">
+                            <img src="multimedia/img/icono_contacto.png" class="p-5" alt="icono_contacto">
+                        </a>
+                    </div>
+                    <p class="py-3 fw-bolder fs-6">
+                        INFO
+                    </p>
+                    <p>
+                        Déjanos tus datos y descubre el maravilloso mundo de Bordacuentos.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTENT-->
+
+        <section class="container-fluid bg-yellow p-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div data-aos="zoom-in-right">
+                        <h2 class="py-3 fw-bold">La importancia de las técnicas textiles</h2>
+                        <p class="size">El bordado a mano es una técnica tradicional y antigua, que se remonta a la era
+                            Antes de Cristo
+                            (A.C.). Como labor ornamental, o en otras palabras decorativa, requiere de una profunda
+                            dedicación y es empleada con mayor frecuencia en espacios terapéuticos, abarcando un público
+                            amplio, desde niños hasta ancianos.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 my-4 d-flex justify-content-center" data-aos="zoom-in-up">
+                    <img src="multimedia/img/bordando_dona_supertincho.jpg" alt="bordando_dona_supertincho"
+                        class="rounded-5 img-fluid dona">
+                </div>
+
+                <div class="col-lg-6 col-md-12 my-4 d-flex justify-content-center" data-aos="zoom-in-up">
+                    <img src="multimedia/img/marcador_libro_supertincho.jpg" alt="marcador_libro_supertincho"
+                        class="rounded-5 img-fluid marcador">
+                </div>
+                <div class="col-lg-6 col-md-12" data-aos="zoom-in-left">
+                    <div>
+                        <h2 class="py-3 fw-bold">Desarrollo del prototipo de aplicación</h2>
+                    </div>
+                    <p class="size">
+                        El producto consta de: 9 telas a bordar, materiales y código QR impreso para acceder a la
+                        plataforma. “Las Travesuras de Supertincho” es un cuento infantil desarrollado en “Marvel
+                        App".
+                    </p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--ECOMMERCE-->
+
+        <section>
+            <div data-aos="flip-right" class="text-center">
+                <h3 class="fw-bolder py-5">¿Qué libro deseas comprar?</h3>
+            </div>
+
+            <div id="contenedor-productos" class="prod-container">
+            </div>
+
+            <div id="contenedor-carrito" class="prod-container">
+            </div>
+        </section>
+
+        <!-- <section class="bg-sky-blue">
+            <section class="container text-center p-5">-->
+
+        <!-- Contenedor de Productos -->
+        <!-- <div id="contenedor-productos" class="row d-flex justify-content-center">
+                    <div data-aos="flip-right">
+                        <h3 class="fw-bolder py-5">¿Qué libro deseas comprar?</h3>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;" data-aos="zoom-out-down">
+                            <img class="card-img-top" src="multimedia/img/Travesuras de Supertincho.jpg"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Las Travesuras de Supertincho</h5>
+                                <p class="card-text">Un libro sobre la amitad, la tolerancia, el perdón, de que las
+                                    cosas no
+                                    son siempre como creemos, que si bien somos distintos podemos aceptar nuestras
+                                    diferencias y crear lazos eternos de amistad.</p>
+                                <p class="fw-bolder">$2590</p>
+                                <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 18rem;" data-aos="zoom-out-down">
+                            <img class="card-img-top" src="multimedia/img/Cumpleaños Mr T.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">El Mega Cumpleaños de Mr. T.</h5>
+                                <p class="card-text">Un libro sobre la amitad, la tolerancia, el perdón, de que las
+                                    cosas no
+                                    son siempre como creemos, que si bien somos distintos podemos aceptar nuestras
+                                    diferencias y crear lazos eternos de amistad.</p>
+                                <p class="fw-bolder">$2590</p>
+                                <a href="#" class="btn btn-primary">Añadir al Carrito</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+        <!--Carrito-->
+        <!-- <div id="contenedor-carrito">
+        </div>
+        </section>
+        </section> -->
+
+        <!--DOWNLOAD APP-->
+
+        <section class="container text-center">
+            <div class="row mb-5">
+                <div class="col-md-12" data-aos="zoom-out-down">
+                    <h4 class="fw-bolder p-5">Descarga la app móvil</h4>
+                </div>
+
+                <div class="col-md-12">
+                    <p>Luego te enviaremos el producto a tu domicilio para que comiences a disfrutar de este mundo
+                        maravilloso que es el bordado, y todos los beneficios que este trae consigo, aprendiendo de la
+                        manera más divertida, acompañando a Supertincho en sus infinitas travesuras!</p>
+                </div>
+
+                <div class="col-md-12">
+                    <a class="btn btn-outline-primary btn-lg" href="#" role="button">App Store</a>
+                    <a class="btn btn-outline-primary btn-lg" href="#" role="button">Google Play</a>
+                </div>
+            </div>
+        </section>
+        </main>
+
+        <!--FOOTER-->
+
+        <footer class="footer text-center text-black bg-body-tertiary pb-1 py-4">
+            <div>
+                <nav>
+                    <ul class="nav justify-content-evenly flex-row">
+                        <li><a href="index.html"
+                                class="footer-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">INICIO</a>
+                        </li>
+                        <li><a href="pages/proyecto.html"
+                                class="footer-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">PROYECTO</a>
+                        </li>
+                        <li><a href="pages/producto.html"
+                                class="footer-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">PRODUCTO</a>
+                        </li>
+                        <li><a href="pages/about.html"
+                                class="footer-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">SOBRE
+                                NOSOTROS</a></li>
+                        <li><a href="pages/contacto.html"
+                                class="footer-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">CONTACTO</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div>
+                <p>1717 Harrison St, San Francisco, CA 94103, USA</p>
+                <p>© 2020 BordaCuentos. Todos los derechos reservados</p>
+            </div>
+        </footer>
+
+        <!--SCRIPT BOOTSTRAP-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+        <!--SCRIPT AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!--SCRIPT JAVASCRIPT-->
+        <script src="./main.js"></script>
 </body>
+
 </html>
